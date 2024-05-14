@@ -1,0 +1,8 @@
+streamlit
+streamlit_extras
+pandas
+numpy
+matplotlib
+scipy
+plotly_express
+validators
