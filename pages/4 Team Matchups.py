@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 add_logo("images/liquid_logo.png", height = 65)
 st.sidebar.image("images/HVG_logo.png",caption= "Made to the specifications of the 2024 Hornets Venom Gaming Team")
 
-df = pd.read_csv('data/Daily_2K_Player_Stats_Report_2024-05-13.csv', skiprows=0)
+df = pd.read_csv('data/active.csv', skiprows=0)
 df = df.drop("Person_id", axis= 'columns')
 df['FG%'] = df['FG%'] * 100
 df['FG3%'] = df['FG3%'] * 100
