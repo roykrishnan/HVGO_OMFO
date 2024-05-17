@@ -4,7 +4,7 @@ from streamlit_extras.app_logo import add_logo
 import numpy as np 
 import plotly_express as px
 
-df = pd.read_csv('data/Daily_2K_Player_Stats_Report_2024-05-13.csv', skiprows=0)
+df = pd.read_csv('data/active.csv', skiprows=0)
 df = df.dropna()
 print(df.columns)
 
