@@ -9,7 +9,7 @@ add_logo("images/liquid_logo.png", height = 65)
 st.sidebar.image("images/HVG_logo.png",caption= "Made to the specifications of the 2024 Hornets Venom Gaming Team")
 
 # Load Data
-all_data = pd.read_csv('data/Daily_2K_Player_Stats_Report_2024-05-13.csv', skiprows=0)
+all_data = pd.read_csv('data/active.csv', skiprows=0)
 st.sidebar.image("images/small_logo.png", caption="Developed and Maintained by Roy Krishnan")
 
 
