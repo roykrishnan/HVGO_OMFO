@@ -15,7 +15,55 @@ st.subheader('', divider='grey')
 
 st.write("Where we'll release news, new releases, and updates: ")
 st.link_button('OMFO X Account', 'https://twitter.com/1ManFrontOffice')
+with st.expander("**Objective Team Research - Hornets Venom GT**"):
+    st.write("""
+    HORNETS VENOM GT
+    Most Common Lineup
 
+    MOOCH
+    3PT Shot Hunter
+    PG
+    
+    TREY DOLLAZ 
+    Chess
+    Recent trade for Chess will require more data before we can make assumptions about him at this position. 
+    
+    FLUKELOCK
+    2 Way Spot Up Threat
+    LOCK
+    
+    BIG SAINT
+    2 Way Spot Up Glass Cleaner
+    PF
+    
+    CROWN
+    Inside The Arc Maestro
+    C
+
+
+    Current standing
+    Currently sitting with 20 points total (tied with both Celtics and Magic Gaming).  Two wins away from the playoff picture. Turn tournament still to kick off next week. 
+    
+    Offensively
+    The Hornets deploy an unconventional offensive scheme, leaning on an outside center build to spark their pick-and-roll game. Their offense thrives on constant motion, off-ball cuts, and team-wide involvement, using the traditional high screen setups for a more dynamic approach tailored to individual strengths.
+    
+    High efficiency play out of the center and power forward position, Crown and Big Saint. With Saint currently sitting at Top 5 in Helio Grade at the PF spot.  The backcourt has a talented duo but seeing some inconsistency out of their play in the first tournament, particularly with their scoring. Currently bottom half in scoring amongst PGs shooting 44% from the field and 43% from three.
+    
+    Flukelock currently has the highest field goal percentage amongst all lockdowns with 82.6% in five games played. Also, leads locks in 3PT% with 6 or more threes taken on top of averaging over 10 points a game.   
+    
+    When looking at the offensive impact at the shooting guard, Trey seems to score near the bottom of the pact.  A few names to where he shares this space with are the likes of HarryVZN, BRich, and Reizey. This means he doesn’t spend a lot of time with the ball and needs to convert at a higher margin like his counterparts we see from some of the better teams.  This will have to start creating better routes to get open on the break and some quick hits to get Mooch building confidence and gaining takeover earlier in games.
+    
+    With Mooch and (now Chess) able to get something going early in the game, this will give the team the edge on being more consistent. Doing this will continue to open up the opportunities for easier buckets for the rest of the team.  Don’t stop involving Saint in the offense with the ‘top of the key’ stops up the court and letting him work in the pick and roll.  Also the defense will begin to overcompensate on the guards, freeing up looks for Fluke and Crown as well  
+    
+    Defensively
+    Looking at the defensive side of the coin, starting with how most stops occur and that’s with a defensive rebound.  Crown currently is 2nd in the east, as of today, in total rebound. Right behind Colt. All the while, Saint is 4th amongst PFs in defensive rebounds in the east.  
+    
+    Taking a glance at overall defensive rotations, it seems like the whole team knows where they should be once something is called out, but the major takeaway from some of the closer games is that there may be some slip ups late in shot clocks.  In particular, late looks at the hash for a dex or off-ball screen.  Also there were times, like in the matchup vs the Heat, where they took advantage of the size difference with Mooch.  They did this by using off-ball action as a decoy, thus getting a bigger player with finishing ability all alone in the paint with a point guard.
+    
+    With being a bit average team at getting stops through steals, it's the lapses in communication late in clocks where there seems to be one, maybe two players talking (going off what’s seen on broadcast), is going to result in frustration and forces the team to work out of half court. 
+    
+    Conclusion
+    As Hornets Gaming navigates the twists and turns of the season, finding consistency on both ends of the floor will be key to their success. With adjustments to offensive execution and a sharper focus on defensive communication, the team can unlock their full potential and make a strong push for playoff contention.""")
 with st.expander("**What is OMFO?**"):
     st.write("**OMFO is a 2K League basketball player box-score score visualization system that allows teams to see real time rendered visualizations to track player progress and value**.") 
 with st.expander("**Accuracy**"):
