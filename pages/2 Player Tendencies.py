@@ -55,15 +55,19 @@ def triangle():
     eff_df_pg = df[['Player', "Pos.", "Eff"]]
     eff_df_pg = eff_df_pg[eff_df_pg['Pos.'] == 'PG']
     eff_df_pg.reset_index(drop=True, inplace=True)
-    std_dev_pg = 3.55
+    eff_max_pg = eff_df_pg['Eff'].max()
+    eff_min_pg = eff_df_pg['Eff'].min()
+
+    diff = eff_max_pg - eff_min_pg
+    std_dev_pg = diff/5
 
     eff_max_pg = eff_df_pg['Eff'].max()
     S_pg = eff_max_pg
-    A_pg = eff_max_pg - std_dev_pg
+    A_pg = S_pg - std_dev_pg
     B_pg = A_pg - std_dev_pg
     C_pg = B_pg - std_dev_pg
     D_pg = C_pg - std_dev_pg
-    F_pg = D_pg - std_dev_pg
+    F_pg = eff_min_pg + std_dev_pg
 
     for index, row in eff_df_pg.iterrows():
         eff = row['Eff']
@@ -93,15 +97,19 @@ def triangle():
     eff_df_SG = df[['Player', "Pos.", "Eff"]]
     eff_df_SG = eff_df_SG[eff_df_SG['Pos.'] == 'SG']
     eff_df_SG.reset_index(drop=True, inplace=True)
-    std_dev_SG = 2.94
+    eff_max_sg = eff_df_SG['Eff'].max()
+    eff_min_sg = eff_df_SG['Eff'].min()
+
+    diff = eff_max_sg - eff_min_sg
+    std_dev_sg = diff/5
 
     eff_max_SG = eff_df_SG['Eff'].max()
     S_SG = eff_max_SG
-    A_SG = eff_max_SG - std_dev_SG
-    B_SG = A_SG - std_dev_SG
-    C_SG = B_SG - std_dev_SG
-    D_SG = C_SG - std_dev_SG
-    F_SG = D_SG - std_dev_SG
+    A_SG = eff_max_SG - std_dev_sg
+    B_SG = A_SG - std_dev_sg
+    C_SG = B_SG - std_dev_sg
+    D_SG = C_SG - std_dev_sg
+    F_SG = D_SG - std_dev_sg
 
     for index, row in eff_df_SG.iterrows():
         eff = row['Eff']
